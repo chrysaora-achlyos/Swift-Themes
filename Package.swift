@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "RunestoneThemes", targets: ["RunestoneThemes"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/simonbs/Runestone", branch: "main"),
+        .package(url: "https://github.com/simonbs/Runestone", from: "0.5.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
